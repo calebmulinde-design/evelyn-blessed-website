@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website of EVELYN BLESSED — music, events, gallery and contact.">
+  <title>EVELYN BLESSED | Official Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="logo" href="#home">ARTIST<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#music">Music</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">OFFICIAL WEBSITE</p>
+        <h1>Evelyn<br><em>Blessed</em></h1>
+        <p class="hero-subtitle">Music • Grace • Inspiration</p>
+        <div class="hero-buttons">
+          <a class="btn btn-light" href="#music">Listen now</a>
+          <a class="btn btn-outline" href="#contact">Book artist</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL ↓</a>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="intro-copy reveal">
+        <p class="eyebrow">ABOUT THE ARTIST</p>
+        <h2>A voice with<br><em>something to say.</em></h2>
+        <p>
+          Welcome to the official home of Evelyn Blessed. She is a singer and songwriter born in Uganda
+          , Africa. She sets out to inspire the world with her music one step at a time.
+        </p>
+        <p>
+          Living in the United States at the moment, she still releases beautiful music and continues to inspire the next generation of singers.
+          She looks forward to great things in the life that God has blessed her with in the states.
+          
+        </p>
+        <a class="text-link" href="#contact">Get in touch →</a>
+      </div>
+      <div class="intro-photo reveal">
+        <img src="images/portrait.jpg" alt="Artist portrait">
+        <span class="photo-number">01 / 05</span>
+      </div>
+    </section>
+
+    <section class="music section" id="music">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MUSIC</p>
+        <h2>Listen to the <em>best.</em></h2>
+      </div>
+      <div class="music-card reveal">
+        <div class="music-art">
+          <img src="images/gallery-1.jpg" alt="Artist">
+          <button class="play-button" id="playButton" aria-label="Play preview">▶</button>
+        </div>
+        <div class="music-info">
+          <audio id="song" src="audio/maama.mp3"></audio>
+          <p class="small-label">BEST RELEASE</p>
+          <h3>Maama</h3>
+          <p class="muted">EVELYN BLESSED • 2022</p>
+          
+          
+          <div class="platforms">
+            <a href="https://youtu.be/8EFGGO1qMIk?si=4Lpbu1g1-IjDKfbm">YouTube</a>
+            <a href="#" onclick="return false;">Spotify</a>
+            <a href="#" onclick="return false;">Apple Music</a>
+          </div>
+          <p class="hint">She is yet to release on spotify and Apple music but expect great things.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GALLERY</p>
+        <h2>Moments <em>captured.</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <button class="gallery-item tall reveal" data-full="images/hero.jpg">
+          <img src="images/hero.jpg" alt="Artist portrait in white">
+        </button>
+        <button class="gallery-item reveal" data-full="images/gallery-1.jpg">
+          <img src="images/gallery-1.jpg" alt="Artist portrait in peach">
+        </button>
+        <button class="gallery-item reveal" data-full="images/gallery-2.jpg">
+          <img src="images/gallery-2.jpg" alt="Artist portrait">
+        </button>
+        <button class="gallery-item wide reveal" data-full="images/gallery-3.jpg">
+          <img src="images/gallery-3.jpg" alt="Artist portrait">
+        </button>
+        <button class="gallery-item reveal" data-full="images/portrait.jpg">
+          <img src="images/portrait.jpg" alt="Artist portrait in white">
+        </button>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-inner reveal">
+        <p class="eyebrow">THE JOURNEY</p>
+        <blockquote>“Let the music speak where words fall short.”</blockquote>
+      </div>
+    </section>
+
+    <section class="events section" id="events">
+      <div class="section-heading reveal">
+        <p class="eyebrow">UPCOMING</p>
+        <h2>See you <em>there.</em></h2>
+      </div>
+      <div class="event-list">
+        <div class="event reveal">
+          <div class="date"><strong>12</strong><span>OCT</span></div>
+          <div><h3>Live Performance</h3><p>Kampala, Uganda • 7:00 PM</p></div>
+          <a href="#contact">Details →</a>
+        </div>
+        <div class="event reveal">
+          <div class="date"><strong>28</strong><span>NOV</span></div>
+          <div><h3>Special Concert</h3><p>Venue to be announced • 6:30 PM</p></div>
+          <a href="#contact">Details →</a>
+        </div>
+        <div class="event reveal">
+          <div class="date"><strong>15</strong><span>DEC</span></div>
+          <div><h3>End of Year Show</h3><p>Kampala, Uganda • 7:30 PM</p></div>
+          <a href="#contact">Details →</a>
+        </div>
+      </div>
+      <p class="hint">These are sample events — replace them with the singer's real dates.</p>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-photo reveal">
+        <img src="images/gallery-2.jpg" alt="Artist">
+      </div>
+      <div class="contact-copy reveal">
+        <p class="eyebrow">BOOKINGS & CONTACT</p>
+        <h2>Let's make<br><em>something happen.</em></h2>
+        <p>For bookings, collaborations, media and general enquiries, use the details below.</p>
+        <div class="contact-details">
+          <a href="mailto:evelynblessed99@gmail.com">evelynblessed99@gmail.com</a>
+          <a href="tel:+17815269215">+17815269215</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.instagram.com/evelynmusoke?stkn=MWN4Mzg5ZHk0Z3Rmdg==">Instagram</a>
+          <a href="https://youtu.be/8EFGGO1qMIk?si=4Lpbu1g1-IjDKfbm">YouTube</a>
+          <a href="#" onclick="return false;">Facebook</a>
+          <a href="https://www.tiktok.com/@velynb2?_r=1&_t=ZS-99aGkx4pkV6">TikTok</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">ARTIST<span>.</span></div>
+    <p>© 2026 EVELYN BLESSED. All rights reserved.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close-lightbox" aria-label="Close">×</button>
+    <img id="lightboxImage" src="" alt="Expanded gallery image">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
